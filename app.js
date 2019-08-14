@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
 let port = 9090;
 
 app.listen(port, () => {
+    // console.log(`listening on port ${chalk.green(port)}`);
     console.log(`listening on port ${chalk.green(port)}`);
 })

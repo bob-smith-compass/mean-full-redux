@@ -8,3 +8,11 @@
 
 ## SQL Server
 
+## GitHub
+
+[https://github.com/bob-smith-compass/mean-full-redux](https://github.com/bob-smith-compass/mean-full-redux)
+
+## debug
+
+```yarn add debug
+DEBUG=* node app.js ```
