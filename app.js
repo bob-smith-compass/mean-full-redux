@@ -1,7 +1,10 @@
 var express = require('express');
 var chalk = require('chalk');
+var morgan = require('morgan');
 
 var app = express();
+
+app.use(morgan('combined'));
 
 app.get('/', (req, res) => {
     // console.log(req);

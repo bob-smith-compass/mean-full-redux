@@ -15,4 +15,9 @@
 ## debug
 
 ```yarn add debug
-DEBUG=* node app.js ```
+DEBUG=* node app.js
+```
+
+## morgan midleware
+
+log to cosole all Ajax calls.
