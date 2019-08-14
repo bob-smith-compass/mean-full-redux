@@ -1,6 +1,7 @@
 var express = require('express');
 var chalk = require('chalk');
 var morgan = require('morgan');
+var path = require('path');
 
 var app = express();
 
@@ -10,7 +11,7 @@ app.get('/', (req, res) => {
     // console.log(req);
     // console.log(req.headers);
     // res.send('Express!');
-    res.sendFile(__dirname + '/views/index.html');
+    res.sendFile (path.join(__dirname, 'views/index.html'));
 })
 
 let port = 9090;
