@@ -8,8 +8,9 @@ app.use(morgan('combined'));
 
 app.get('/', (req, res) => {
     // console.log(req);
-    console.log(req.headers);
-    res.send('Express!');
+    // console.log(req.headers);
+    // res.send('Express!');
+    res.sendFile(__dirname + '/views/index.html');
 })
 
 let port = 9090;
